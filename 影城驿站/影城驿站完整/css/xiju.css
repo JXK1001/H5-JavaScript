@@ -1,0 +1,132 @@
+   *{
+	    	margin: 0;
+	    	padding: 0;
+	    	border: none;
+	    }
+	    body{
+	    	height: 1300px; 
+	    }
+	    .header{
+	    	width: 100%;
+	    	height: 58px;
+	    	background-color: #191d3a;
+	    }
+
+
+	    .header .logo{
+            float: left;
+            height: 10px;
+            width: 15px;
+            margin-top: 10px;
+            margin-left: 50px;
+	    }
+
+	    /*logo与标题栏的位置关系*/
+	    .header .nav{
+            width: 517px;
+            overflow: hidden;  
+            line-height: 58px;
+            float: left;
+            margin-left: 150px; 
+ 
+	    }
+	    /*取消点*/
+	    .header .nav ul{
+	    	list-style: none;
+	    }
+	    /*标题栏的文字*/
+	    .header .nav ul li{
+	    	float: left;
+	    	width: 85px;
+	    	border-right: 1px solid #252947;
+	    	text-align: center;
+	    }
+
+	    /*选中后变化效果*/
+	    .header .nav ul li.first{
+	    	border-left: 1px solid #252947;
+	    } 
+
+	    /*标题栏文字鼠标未点击前的效果*/
+	    .header .nav ul li a{
+	    	display: block;
+	    	font: 14px/58px "微软雅黑";
+	    	color: #818496; 
+	    	text-decoration: none;
+	    }
+	     .header .nav ul li a:hover{
+	    	color: #e2e4e2;
+	    	background-color: #252947s
+	    }
+
+        /*点击时变色*/
+	    .header .nav ul li a.current{
+	    	color: #e2e4e2;
+	    	background-color: #252947
+	    }
+
+	    /*加入我们图片的定义*/
+	    .header .jrwm{
+	    	float: left;
+	    	line-height: 58px;
+	    	margin-left: 138px;
+	    	padding-top: 12px; 
+	    }
+
+	    /*中间盒子的位置*/
+	    .inner_c{
+	    	width: 1000px;
+	    	margin: 0 auto;
+
+	    }
+	    /*中间图片的内容定义*/
+	    .banner{
+	    	width: 100%;
+	    	height: 460px;
+	    	position: relative;
+		    overflow: hidden;
+		    cursor: pointer;
+		    margin: 0px auto;
+		    top: -12px;
+	    }
+		/*中间盒子距离顶部盒子的距离*/
+	    .content{
+	    	margin-top: 50px;
+	    }
+	    /*电影介绍位置*/
+	    .content .shows ul li{
+	    	float: left;
+	    	width: 800px;
+	    	height: 300px;
+	    	margin-right: 43px;
+	    	text-align: center;
+	    }
+	    /*电影图片大小*/
+	    .content .shows ul li p img{
+	    	width: 600px;
+	    	height: 300px;
+	    	margin-bottom: 70px;
+	    	margin-left: 70px;
+	    }
+	     /*点击播放变绿*/
+	    .content .shows ul li p.djbf a{
+	    	font: 20px/29px "楷体";
+	    	color: #38b774;
+	    	text-decoration: none;
+	    	background: url(image/000.jpg) no-repeat right center;
+	    	padding-right: 10px;
+	    }
+	    /*最低端盒子的大小*/
+	    .foot{
+	    	width: 100%;
+	    	height: 155px;
+	    	background-color: #191d3a;
+	    	position: relative;
+	    	clear: both;
+	    }
+	    /*最低端图片的大小*/
+	    .foot .fir{
+	    	width: 1000px;
+			margin: 0 auto;
+			padding-top: 0px;
+	    }

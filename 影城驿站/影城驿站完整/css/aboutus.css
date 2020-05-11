@@ -1,0 +1,172 @@
+ *{
+	    	margin: 0;
+	    	padding: 0;
+	    	border: none;
+	    }
+	    body{
+	    	height: 1300px; 
+	    }
+	    .header{
+	    	width: 100%;
+	    	height: 58px;
+	    	background-color: #191d3a;
+	    }
+	    .inner_c{
+	    	width: 1000px;
+	    	margin: 0 auto;
+
+	    }
+	    .header .logo{
+            float: left;
+            margin-top: 10px;
+            margin-left:20px;
+	    }
+	    .header .nav{
+            width: 517px;
+            overflow: hidden;  
+            line-height: 58px;
+            float: left;
+            margin-left: 48px; 
+ 
+	    }
+	     .header .nav ul{
+	    	list-style: none;
+	    }
+	    .header .nav ul li{
+	    	float: left;
+	    	width: 85px;
+	    	border-right: 1px solid #252947;
+	    	text-align: center;
+	    }
+	    .header .nav ul li.first{
+	    	border-left: 1px solid #252947;
+	    } 
+	    .header .nav ul li a{
+	    	display: block;
+	    	font: 14px/58px "微软雅黑";
+	    	color: #818496; 
+	    	text-decoration: none;
+	    }
+	    .header .nav ul li a:hover{
+	        /*鼠标放上后的样式变化*/
+	    	color: #e2e4e2;
+	    	background-color: #252947s
+	    }
+	    .header .nav ul li a.current{
+	    	color: #e2e4e2;
+	    	background-color: #252947
+	    }
+	    /*导航条下的大图*/
+        .pic{
+        	width: 100%;
+        	height: 260px;
+        	margin: 0px auto;
+        	background: url(../image/about.jpg);
+
+        }
+        /*关于我们小插图盒子*/
+        .tupian{
+        	width: 1000px;
+        	height: 70px; 
+        	margin: 0 auto;   
+        	font: 30px/65px "微软雅黑";    	
+        	border-bottom: 1px solid #e2e4e2;
+        	/*下划线*/
+        }  
+        .pleft{
+        	float: left;
+        	width: 230px;
+        	padding-top: 40px;
+        }  
+        .kuangjia{
+        	margin-left: 20px;
+        }
+        /*包含目录和文本的大盒子*/  
+      .da{
+			width: 1000px;
+			margin: 0 auto;
+			height: 800px;
+		}
+		/*目录的盒子*/
+	  .da .zhong{
+			width: 230px;
+			height: 400px;
+			margin-top: 40px;
+			float: left;
+		
+		}
+		/*装目录文字的盒子*/
+		.da .zhong .xiao{
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		/*目录列表文字的样式*/
+		.zhong .xiao li{
+			border-bottom: 1px solid #cad6e1;
+			display: list-item;
+			/*列表型的行内盒*/
+			
+		}
+	    /*目录中超链接样式*/
+		.zhong .xiao li a{
+			display: block;
+		    padding: 15px 0;
+		    color: #444866;
+		    font-family: "微软雅黑";
+		    text-decoration: none;
+		    font-size: 13px;
+		}
+         /*超链接鼠标放到文本上显示的样式*/
+		.zhong .xiao a:hover{
+			color: #38b774;
+		}
+        /*简介文本盒子*/
+		.da .wenben{
+			float: right;
+		    width: 732px;
+		    padding-top: 40px;
+		}
+		
+		.wenben .about{
+			 color: #444866;
+		}
+		.wenben .about p{
+			text-indent: 2em;
+		    margin-bottom: 30px;
+		    line-height: 2.4;
+		    font-size: 1.166em;
+		    font-size: 13.5px;
+		    font-family: "微软雅黑";
+		}
+		.foot{
+	    	width: 100%;
+	    	height: 155px;
+	    	background-color: #191d3a;
+	    	clear: both;
+	    	margin-top: 100px;
+	    	
+	    }
+	    .foot .fir{
+	    	width: 1000px;
+			margin: 0 auto;
+			padding-top: 20px;
+
+
+	    }
+	    .foot .fir p{
+			font-size: 12px;
+			font-family: "微软雅黑";
+			color: #aaa; 
+			margin-bottom: 30px; 
+		}   
+		.foot .fir p.last{
+			margin-bottom: 15px; 
+		}
+		.foot .blog img{
+			width: 36px;
+			height: 50px;
+			position: absolute;
+			right: 27%;
+			bottom: 10px;
+		}
